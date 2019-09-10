@@ -59,7 +59,6 @@ public class SelectAdapter  extends RecyclerView.Adapter implements SelectableVH
             holder.imageView.setImageResource(Conv.getEmotIconImageResource(selectableItem.getEmotIcon()));
             holder.textView.setText(selectableItem.getMessage());
 
-            //setIcon(holder.textView,name);
             if (isMultiSelect) {
                 TypedValue value = new TypedValue();
                 holder.textView.getContext().getTheme().resolveAttribute(android.R.attr.listChoiceIndicatorMultiple, value, true);

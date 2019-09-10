@@ -102,6 +102,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:textColor="@color/colorAccent"
         android:background="@color/colorPrimary"
         android:hint="@string/type_here"
         android:inputType="text"
@@ -118,6 +119,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:text="@string/confirm"
+        android:background="@drawable/ic_ufo_dash"
+        android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

@@ -40,6 +40,7 @@
             android:padding="15dp"
             android:layout_alignParentEnd="true"
             android:text="@string/month_ahead"
+            android:textColor="@color/colorPrimary"
             android:background="@drawable/ic_ufo_dash"
             android:id="@+id/monthF" />
 
@@ -58,6 +59,7 @@
             android:padding="15dp"
             android:text="@string/month_back"
             android:layout_alignParentStart="true"
+            android:textColor="@color/colorPrimary"
             android:background="@drawable/ic_ufo_dash"
             android:id="@+id/monthB" />
     </RelativeLayout>

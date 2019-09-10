@@ -25,13 +25,7 @@ public class SelectableVH  extends RecyclerView.ViewHolder {
         imageView = view.findViewById(R.id.emoticon);
         textView.setOnClickListener(view1 -> {
         setChecked(!selectItem.isSelected());
-/*
-            if (selectItem.isSelected() ) {
-                setChecked(false);
-            } else {
-                setChecked(true);
-            }
-  */          itemSelectedListener.onItemSelected(selectItem);
+        itemSelectedListener.onItemSelected(selectItem);
 
         });
     }

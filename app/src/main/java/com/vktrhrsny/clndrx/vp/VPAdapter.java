@@ -53,12 +53,12 @@ public class VPAdapter extends RecyclerView.Adapter<VPAdapter.ViewHolder> {
         return data.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder{
+    class ViewHolder extends RecyclerView.ViewHolder{
         TextView textView;
         RelativeLayout relativeLayout;
         Button button;
 
-        public ViewHolder(@NonNull View itemView) {
+        ViewHolder(@NonNull View itemView) {
             super(itemView);
             textView = itemView.findViewById(R.id.tvTitle);
             relativeLayout = itemView.findViewById(R.id.container);

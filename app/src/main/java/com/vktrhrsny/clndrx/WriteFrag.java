@@ -63,7 +63,7 @@ public class WriteFrag extends Fragment {
             memory.setEntry(memo);
             memory.setEmotIcon(emoticonCode);
             compositeDisposable.add(vm.insert(memory));
-            Toast.makeText(getContext(), ""+memory.getDate()+"\n entry: "+memory.getEntry(), Toast.LENGTH_SHORT).show();
+
         });
 
         ImageView vs = view.findViewById(R.id.vs);vs.setOnClickListener(listener->{emoticonCode=5; editText.setBackground(vs.getDrawable());});

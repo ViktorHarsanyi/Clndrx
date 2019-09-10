@@ -58,7 +58,6 @@ public class CalendarFrag extends Fragment {
                         .observeOn(AndroidSchedulers.mainThread())
                         .subscribe(memoryEntities -> {
                         adapter.setMemoData(memoryEntities);
-                        Toast.makeText(getContext(),"Success Read",Toast.LENGTH_SHORT).show();
                 }));
 
         adapter = new RecyAdapter(getContext());
