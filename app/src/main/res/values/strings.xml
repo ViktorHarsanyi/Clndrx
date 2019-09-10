@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Clndrx</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="type_here">Type Here</string>
+
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="emoticon">Emoticon</string>
+    <string name="read_note">Read Note</string>
+    <string name="add_note">Add Note</string>
+    <string name="confirm">Confirm</string>
+    <string name="delete">Delete</string>
+    <string name="month_back">Month Back</string>
+    <string name="month_ahead">Month Ahead</string>
+    <string name="calendar">Calendar</string>
+    <string name="write">Write</string>
+    <string name="read">Read</string>
+    <string name="mood">MOOD</string>
+</resources>
